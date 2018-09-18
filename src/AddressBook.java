@@ -26,8 +26,15 @@ public class AddressBook {
 		this.contents.remove(i);
 		System.out.println(this.contents.toString());
 	}
-	public static void main(String[] args){
-		System.out.println("Address Book");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AddressBook book = new AddressBook();
+		
+		//Test addBuddy method
+		book.addBuddy("Keon", "16 Powell", "6131234567" );
+		
+		//Test removeBuddy method
+		book.removeBuddy(0);
 	}
 		
 	
