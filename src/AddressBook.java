@@ -26,6 +26,12 @@ public class AddressBook {
 		this.contents.remove(i);
 		System.out.println(this.contents.toString());
 	}
+	public void wipeBook(){
+		for (int i = 0; i < contents.size(); i++){
+			contents.remove(i);
+		}
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AddressBook book = new AddressBook();
